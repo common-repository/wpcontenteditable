@@ -1,0 +1,56 @@
+.contenteditable:hover .ce-edit-button {
+	opacity:1;
+	display:block;
+}
+
+.editing .contenteditable {
+	border:1px dotted transparent;
+}
+
+.editing .contenteditable {
+	display:block;
+}
+
+.editing .contenteditable:hover {
+	border:1px dotted #999;
+}
+.editing .contenteditable:focus {
+	background-color:#f9f0ae; color:black;
+}
+
+.ce-edit-button {
+	background-color:black;
+	color:white;
+	display:block;
+	padding:4px 8px;
+	font-size:12px;
+	float:right;
+	text-align:right;
+	opacity:.5;
+	display:none;
+}
+
+.ce-edit-button:hover {
+	background-color:magenta;
+	color:white;
+	
+}
+
+#wpadminbar #wp-admin-bar-content_editable a:focus,
+#wpadminbar #wp-admin-bar-content_editable a {
+	background-image:none;
+	background-color:transparent;
+}
+
+
+.editing #wpadminbar #wp-admin-bar-content_editable a:focus,
+.editing #wpadminbar #wp-admin-bar-content_editable a {
+	background-image: linear-gradient(bottom,#21759B,#21759B);
+	background-image: -webkit-linear-gradient(bottom,#21759B,#21759B);
+	box-shadow:inset 0px 0px 10px rgba(0, 0, 0, .4);
+}
+
+a .contenteditable {
+	cursor:pointer;
+}
+
